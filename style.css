@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+h1{
+    text-shadow: 7px 5px 5px rgb(13, 8, 32);
+}
+.container{
+    display: flex;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(224, 36%, 23%);
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: hsl(208, 22%, 50%);
+}
+.navbar li{
+    display: inline;
+    float: left;
+}
+#left_block{
+    box-sizing: border-box;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: hsl(224, 36%, 23%);
+    width: 450px;
+}
+
+#right_block{
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
